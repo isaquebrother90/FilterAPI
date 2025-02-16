@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import java.util.List;
 
 @FeignClient(name = "clienteCompraClient", url = "https://rgr3viiqdl8sikgv.public.blob.vercel-storage.com")
-public interface ClienteCompraClient {
+public interface ClienteCompraApiClient {
     @GetMapping("/clientes-Vz1U6aR3GTsjb3W8BRJhcNKmA81pVh.json")
     List<ClienteCompra> getClientesCompras();
 }
