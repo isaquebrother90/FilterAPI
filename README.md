@@ -1,21 +1,27 @@
 # FilterAPI
-Microsserviço para filtro e geração de recomendação e relatórios de compras.
 
 ## Descrição
 Microsserviço para filtro e geração de recomendação e relatórios de compras.
-
-Premissas
 
 ## Tecnologias Utilizadas
 - **Java 11**
 - **Maven** (gerenciador de dependências)
 - **FeignClient**
+- **Swagger**
+- **CI/CD Github Actions**
+- **Docker e Docker Compose**
 
 ## Funcionalidades
 - **Busca compras**
 - **Buscar maior comra do ano**
 - **Busca Clientes fiéis**
 - **Recomendação de vinhos**
+
+## Conceitos
+- **Design Patterns**
+- **SOLID**
+- **Clean Code**
+- **POO**
 
 ## Pré-requisitos
 - **Java 11**: Certifique-se de ter o Java 11 instalado em sua máquina.
@@ -64,6 +70,3 @@ Para verificar os testes integrados disponíveis execute:
 ```
 mvn test
 ```
-
-### TO DO:
-- Testes unitários do controlador de pessoa e da integração com api externa ViaCEP.
