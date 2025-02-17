@@ -37,24 +37,23 @@ jobs:
           sudo mkdir -m 0755 -p /etc/apt/keyrings
           curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo tee /etc/apt/keyrings/docker.asc
 
+          # Corrigido aqui: vamos criar o arquivo docker.list corretamente
           echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 
           sudo apt-get update
           sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 
+          # Instalar Docker Compose (versão 1.x ou 2.x)
           sudo curl -L "https://github.com/docker/compose/releases/download/v2.17.3/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
           sudo chmod +x /usr/local/bin/docker-compose
 
+          # Iniciar o serviço Docker
           sudo systemctl start docker
           sudo systemctl enable docker
 
+          # Verificar as versões
           docker --version
           docker-compose --version
-
-      # Garantir que o diretório está correto para rodar o Maven
-      - name: Set working directory
-        run: |
-          cd $GITHUB_WORKSPACE/FilterAPI
 
       # Instalar dependências e rodar testes
       - name: Run tests
