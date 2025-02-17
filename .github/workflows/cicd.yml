@@ -3,10 +3,12 @@ name: CI Pipeline
 on:
   push:
     branches:
-      - "*"
+      - main
+      - develop   # Agora a branch develop também está configurada para disparar o CI/CD
   pull_request:
     branches:
-      - "*"
+      - main
+      - develop
 
 jobs:
   build:
@@ -16,6 +18,8 @@ jobs:
       # Checkout do código
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          ref: develop
 
       # Configuração do JDK 11
       - name: Set up JDK 11
