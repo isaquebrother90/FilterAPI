@@ -37,29 +37,4 @@ jobs:
           sudo mkdir -m 0755 -p /etc/apt/keyrings
           curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo tee /etc/apt/keyrings/docker.asc
 
-          sudo echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-
-          sudo apt-get update
-          sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
-
-          # Iniciar o serviço Docker (garantir que o Docker esteja rodando)
-          sudo systemctl start docker
-          sudo systemctl enable docker
-
-          # Verificar as versões
-          docker --version
-          docker-compose --version
-
-      # Instalar dependências e rodar testes
-      - name: Run tests
-        run: mvn clean install -DskipTests
-
-      # Construir a imagem Docker
-      - name: Build Docker image
-        run: |
-          docker build -t my-app .
-
-      # Rodar o docker-compose
-      - name: Run Docker Compose
-        run: |
-          docker-compose -f docker-compose.yml up --build -d
+          sudo echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/
