@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: 11
-          distribution: 'adoptium'  # Pode ser 'adoptopenjdk', 'zulu', 'amazon', 'openjdk', etc.
+          distribution: 'temurin'  # Pode ser 'adoptopenjdk', 'zulu', 'amazon', 'openjdk', etc.
       # Instalar dependências e rodar testes
       - name: Run tests
         run: mvn clean install -DskipTests
