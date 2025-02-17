@@ -62,7 +62,7 @@ jobs:
       # Construir a imagem Docker
       - name: Build Docker image
         run: |
-          docker build -t my-app .
+          docker build -t app .
 
       # Rodar o docker-compose
       - name: Run Docker Compose
