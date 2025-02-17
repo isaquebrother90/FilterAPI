@@ -42,6 +42,10 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
+          # Iniciar o serviço Docker (garantir que o Docker esteja rodando)
+          sudo systemctl start docker
+          sudo systemctl enable docker
+
           # Verificar as versões
           docker --version
           docker-compose --version
