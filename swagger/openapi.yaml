@@ -1,0 +1,303 @@
+{
+  "openapi": "3.0.1",
+  "info":
+    {
+      "title": "FilterAPI",
+      "description": "Microsserviço para filtro e geração de recomendação e relatórios de compras",
+      "license":
+        {
+          "name": "MIT License",
+          "url": "https://choosealicense.com/licenses/mit/",
+        },
+      "version": "1.0",
+    },
+  "servers": [{ "url": "${filterapi.openapi.dev-url}" }],
+  "security": [{ "bearerAuth": [] }],
+  "tags":
+    [
+      {
+        "name": "FilterAPI",
+        "description": "API para filtro e geração de recomendação e relatórios de compras",
+      },
+    ],
+  "paths":
+    {
+      "/api/recomendacao/{cpf}":
+        {
+          "get":
+            {
+              "tags": ["FilterAPI"],
+              "summary": "Obter recomendação de vinho",
+              "description": "Retorna uma recomendação de vinho com base no CPF do cliente",
+              "operationId": "getRecomendacao",
+              "parameters":
+                [
+                  {
+                    "name": "cpf",
+                    "in": "path",
+                    "description": "CPF do cliente para obter a recomendação",
+                    "required": true,
+                    "schema": { "type": "string" },
+                  },
+                ],
+              "responses":
+                {
+                  "200":
+                    {
+                      "description": "Recomendação de vinho encontrada",
+                      "content":
+                        {
+                          "application/json":
+                            {
+                              "schema": { "type": "string" },
+                              "example": '"Vinho Tinto - Cabernet Sauvignon"',
+                            },
+                        },
+                    },
+                  "404":
+                    {
+                      "description": "Cliente não encontrado",
+                      "content": { "*/*": { "schema": { "type": "string" } } },
+                    },
+                  "500":
+                    {
+                      "description": "Erro interno do servidor",
+                      "content": { "*/*": { "schema": { "type": "string" } } },
+                    },
+                },
+            },
+        },
+      "/api/maior-compra/{ano}":
+        {
+          "get":
+            {
+              "tags": ["FilterAPI"],
+              "summary": "Obter a maior compra de um ano",
+              "description": "Retorna a maior compra realizada em um ano específico",
+              "operationId": "getMaiorCompra",
+              "parameters":
+                [
+                  {
+                    "name": "ano",
+                    "in": "path",
+                    "description": "Ano para buscar a maior compra",
+                    "required": true,
+                    "schema": { "type": "integer", "format": "int32" },
+                  },
+                ],
+              "responses":
+                {
+                  "200":
+                    {
+                      "description": "Maior compra encontrada",
+                      "content":
+                        {
+                          "application/json":
+                            {
+                              "schema": { "type": "string" },
+                              "example":
+                                {
+                                  "id": 1,
+                                  "produto": "Produto A",
+                                  "valor": 500,
+                                },
+                            },
+                        },
+                    },
+                  "404":
+                    {
+                      "description": "Nenhuma compra encontrada para o ano fornecido",
+                      "content":
+                        {
+                          "*/*":
+                            {
+                              "schema":
+                                {
+                                  "type": "object",
+                                  "additionalProperties": { "type": "object" },
+                                },
+                            },
+                        },
+                    },
+                  "500":
+                    {
+                      "description": "Erro interno do servidor",
+                      "content":
+                        {
+                          "*/*":
+                            {
+                              "schema":
+                                {
+                                  "type": "object",
+                                  "additionalProperties": { "type": "object" },
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+      "/api/compras":
+        {
+          "get":
+            {
+              "tags": ["FilterAPI"],
+              "summary": "Listar todas as compras",
+              "description": "Retorna uma lista de todas as compras registradas",
+              "operationId": "getCompras",
+              "responses":
+                {
+                  "200":
+                    {
+                      "description": "Compras encontradas",
+                      "content":
+                        {
+                          "application/json":
+                            {
+                              "schema": { "type": "string" },
+                              "example":
+                                [
+                                  {
+                                    "id": 1,
+                                    "produto": "Produto A",
+                                    "valor": 150,
+                                  },
+                                  {
+                                    "id": 2,
+                                    "produto": "Produto B",
+                                    "valor": 200,
+                                  },
+                                ],
+                            },
+                        },
+                    },
+                  "204":
+                    {
+                      "description": "Nenhuma compra encontrada",
+                      "content":
+                        {
+                          "*/*":
+                            {
+                              "schema":
+                                {
+                                  "type": "array",
+                                  "items":
+                                    {
+                                      "type": "object",
+                                      "additionalProperties":
+                                        { "type": "object" },
+                                    },
+                                },
+                            },
+                        },
+                    },
+                  "500":
+                    {
+                      "description": "Erro interno do servidor",
+                      "content":
+                        {
+                          "*/*":
+                            {
+                              "schema":
+                                {
+                                  "type": "array",
+                                  "items":
+                                    {
+                                      "type": "object",
+                                      "additionalProperties":
+                                        { "type": "object" },
+                                    },
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+      "/api/clientes-fieis":
+        {
+          "get":
+            {
+              "tags": ["FilterAPI"],
+              "summary": "Listar os clientes mais fiéis",
+              "description": "Retorna uma lista de clientes que mais realizaram compras",
+              "operationId": "getClientesFieis",
+              "responses":
+                {
+                  "200":
+                    {
+                      "description": "Clientes fiéis encontrados",
+                      "content":
+                        {
+                          "application/json":
+                            {
+                              "schema": { "type": "string" },
+                              "example":
+                                [
+                                  {
+                                    "id": 1,
+                                    "cliente": "Cliente A",
+                                    "compras": 10,
+                                  },
+                                  {
+                                    "id": 2,
+                                    "cliente": "Cliente B",
+                                    "compras": 8,
+                                  },
+                                ],
+                            },
+                        },
+                    },
+                  "204":
+                    {
+                      "description": "Nenhum cliente fiel encontrado",
+                      "content":
+                        {
+                          "*/*":
+                            {
+                              "schema":
+                                {
+                                  "type": "array",
+                                  "items":
+                                    {
+                                      "type": "object",
+                                      "additionalProperties":
+                                        { "type": "object" },
+                                    },
+                                },
+                            },
+                        },
+                    },
+                  "500":
+                    {
+                      "description": "Erro interno do servidor",
+                      "content":
+                        {
+                          "*/*":
+                            {
+                              "schema":
+                                {
+                                  "type": "array",
+                                  "items":
+                                    {
+                                      "type": "object",
+                                      "additionalProperties":
+                                        { "type": "object" },
+                                    },
+                                },
+                            },
+                        },
+                    },
+                },
+            },
+        },
+    },
+  "components":
+    {
+      "securitySchemes":
+        {
+          "bearerAuth":
+            { "type": "http", "scheme": "bearer", "bearerFormat": "JWT" },
+        },
+    },
+}

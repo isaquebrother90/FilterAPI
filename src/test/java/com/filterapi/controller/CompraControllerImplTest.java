@@ -18,10 +18,10 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @SpringBootTest
-public class CompraControllerTest {
+public class CompraControllerImplTest {
 
     @InjectMocks
-    private CompraController compraController;
+    private CompraControllerImpl compraControllerImpl;
 
     @Mock
     private CompraServiceImpl compraServiceImpl;
@@ -30,7 +30,7 @@ public class CompraControllerTest {
 
     @BeforeEach
     void setUp() {
-        mockMvc = MockMvcBuilders.standaloneSetup(compraController).build();
+        mockMvc = MockMvcBuilders.standaloneSetup(compraControllerImpl).build();
     }
 
     @Test
