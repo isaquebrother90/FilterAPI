@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\client\ClienteCompraApiClient.java">
+<error line="8" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="10" column="5" severity="warning" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\client\ProdutoApiClient.java">
+<error line="8" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="10" column="5" severity="warning" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\config\SwaggerConfig.java">
+<error line="16" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="21" column="3" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="22" column="18" severity="warning" message="Abreviações no nome &apos;customOpenAPI&apos; não deveriam conter mais do que &apos;1&apos; letras maiúsculas consecutivas." source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\controller\CompraController.java">
+<error line="14" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="16" column="5" severity="warning" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" column="21" severity="warning" message="O filho de &apos;annotation array initialization&apos; está no nível de indentação incorreto de 20. O nível esperado era um desses: 14, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="25" severity="warning" message="A linha contém mais do que 100 caracteres (foram encontrados 190)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="27" column="21" severity="warning" message="O filho de &apos;annotation array initialization&apos; está no nível de indentação incorreto de 20. O nível esperado era um desses: 14, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="28" column="21" severity="warning" message="O filho de &apos;annotation array initialization&apos; está no nível de indentação incorreto de 20. O nível esperado era um desses: 14, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="34" column="5" severity="warning" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="38" column="21" severity="warning" message="O filho de &apos;annotation array initialization&apos; está no nível de indentação incorreto de 20. O nível esperado era um desses: 14, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="43" severity="warning" message="A linha contém mais do que 100 caracteres (foram encontrados 130)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="45" severity="warning" message="A linha contém mais do que 100 caracteres (foram encontrados 119)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="45" column="21" severity="warning" message="O filho de &apos;annotation array initialization&apos; está no nível de indentação incorreto de 20. O nível esperado era um desses: 14, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="46" column="21" severity="warning" message="O filho de &apos;annotation array initialization&apos; está no nível de indentação incorreto de 20. O nível esperado era um desses: 14, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="54" column="5" severity="warning" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="58" column="21" severity="warning" message="O filho de &apos;annotation array initialization&apos; está no nível de indentação incorreto de 20. O nível esperado era um desses: 14, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="63" severity="warning" message="A linha contém mais do que 100 caracteres (foram encontrados 187)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="65" severity="warning" message="A linha contém mais do que 100 caracteres (foram encontrados 103)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="65" column="21" severity="warning" message="O filho de &apos;annotation array initialization&apos; está no nível de indentação incorreto de 20. O nível esperado era um desses: 14, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="66" column="21" severity="warning" message="O filho de &apos;annotation array initialization&apos; está no nível de indentação incorreto de 20. O nível esperado era um desses: 14, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="72" column="5" severity="warning" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="76" column="21" severity="warning" message="O filho de &apos;annotation array initialization&apos; está no nível de indentação incorreto de 20. O nível esperado era um desses: 14, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="81" severity="warning" message="A linha contém mais do que 100 caracteres (foram encontrados 110)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="83" column="21" severity="warning" message="O filho de &apos;annotation array initialization&apos; está no nível de indentação incorreto de 20. O nível esperado era um desses: 14, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="84" column="21" severity="warning" message="O filho de &apos;annotation array initialization&apos; está no nível de indentação incorreto de 20. O nível esperado era um desses: 14, 16." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="89" severity="warning" message="A linha contém mais do que 100 caracteres (foram encontrados 105)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\controller\CompraControllerImpl.java">
+<error line="12" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="14" severity="warning" message="A linha contém mais do que 100 caracteres (foram encontrados 107)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="17" column="5" severity="warning" message="&apos;member def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="19" column="5" severity="warning" message="&apos;ctor def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="20" column="9" severity="warning" message="O filho de &apos;ctor def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="5" severity="warning" message="&apos;ctor def rcurly&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="23" column="5" severity="warning" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="26" column="9" severity="warning" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" column="5" severity="warning" message="&apos;method def rcurly&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="29" column="5" severity="warning" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" column="9" severity="warning" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="33" column="5" severity="warning" message="&apos;method def rcurly&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="35" column="5" severity="warning" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="38" column="9" severity="warning" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="39" column="5" severity="warning" message="&apos;method def rcurly&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="41" column="5" severity="warning" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="44" column="9" severity="warning" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="45" column="5" severity="warning" message="&apos;method def rcurly&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\exception\ClienteNaoEncontradoException.java">
+<error line="3" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\exception\ClienteSemComprasException.java">
+<error line="3" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\exception\GlobalExceptionHandler.java">
+<error line="8" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\exception\ProdutoNaoEncontradoException.java">
+<error line="3" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\exception\ProdutoSemCompraException.java">
+<error line="3" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\FilterApiApplication.java">
+<error line="7" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\model\ClienteCompra.java">
+<error line="5" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="12" column="3" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\model\Compra.java">
+<error line="3" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\model\Produto.java">
+<error line="5" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="19" column="3" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\service\CompraService.java">
+<error line="6" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\service\Impl\CompraServiceImpl.java">
+<error line="1" column="9" severity="warning" message="Package name &apos;com.filterapi.service.Impl&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="5" column="31" severity="warning" message="A forma de importação &apos;.*&apos; deveria ser evitada - com.filterapi.exception.*." source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="19" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\strategy\CompraStrategy.java">
+<error line="6" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\strategy\CompraStrategyContext.java">
+<error line="9" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="12" column="5" severity="warning" message="&apos;member def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="14" column="5" severity="warning" message="&apos;ctor def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="14" column="5" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="16" column="9" severity="warning" message="&apos;for&apos; tem um nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="17" column="13" severity="warning" message="O filho de &apos;for&apos; está no nível de indentação incorreto de 12. O nível esperado era o 6." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="18" column="9" severity="warning" message="&apos;for rcurly&apos; tem um nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="19" column="5" severity="warning" message="&apos;ctor def rcurly&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="5" severity="warning" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="5" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="22" column="9" severity="warning" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="23" column="9" severity="warning" message="&apos;if&apos; tem um nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="24" column="13" severity="warning" message="O filho de &apos;if&apos; está no nível de indentação incorreto de 12. O nível esperado era o 6." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="25" column="9" severity="warning" message="&apos;if rcurly&apos; tem um nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="26" column="9" severity="warning" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" column="5" severity="warning" message="&apos;method def rcurly&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\strategy\impl\ClientesFieisStrategy.java">
+<error line="15" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="18" column="5" severity="warning" message="&apos;member def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="5" severity="warning" message="&apos;member def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="24" column="5" severity="warning" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="26" column="9" severity="warning" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="27" column="9" severity="warning" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="29" column="9" severity="warning" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="31" column="9" severity="warning" message="&apos;for&apos; tem um nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" column="13" severity="warning" message="O filho de &apos;for&apos; está no nível de indentação incorreto de 12. O nível esperado era o 6." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="33" column="13" severity="warning" message="&apos;for&apos; tem um nível de indentação incorreto de 12. O nível esperado era o 6." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="34" column="17" severity="warning" message="O filho de &apos;for&apos; está no nível de indentação incorreto de 16. O nível esperado era o 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="39" column="17" severity="warning" message="&apos;if&apos; tem um nível de indentação incorreto de 16. O nível esperado era o 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="40" column="21" severity="warning" message="O filho de &apos;if&apos; está no nível de indentação incorreto de 20. O nível esperado era o 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="41" column="17" severity="warning" message="&apos;if rcurly&apos; tem um nível de indentação incorreto de 16. O nível esperado era o 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="42" column="13" severity="warning" message="&apos;for rcurly&apos; tem um nível de indentação incorreto de 12. O nível esperado era o 6." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="43" column="13" severity="warning" message="O filho de &apos;for&apos; está no nível de indentação incorreto de 12. O nível esperado era o 6." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="44" column="9" severity="warning" message="&apos;for rcurly&apos; tem um nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="46" column="9" severity="warning" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="50" column="21" severity="warning" message="O filho de &apos;block&apos; está no nível de indentação incorreto de 20. O nível esperado era o 18." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="54" column="21" severity="warning" message="O filho de &apos;block&apos; está no nível de indentação incorreto de 20. O nível esperado era o 18." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="55" column="21" severity="warning" message="&apos;if&apos; tem um nível de indentação incorreto de 20. O nível esperado era o 18." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="56" column="25" severity="warning" message="O filho de &apos;if&apos; está no nível de indentação incorreto de 24. O nível esperado era o 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="57" column="25" severity="warning" message="O filho de &apos;if&apos; está no nível de indentação incorreto de 24. O nível esperado era o 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="58" column="25" severity="warning" message="O filho de &apos;if&apos; está no nível de indentação incorreto de 24. O nível esperado era o 20." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="59" column="21" severity="warning" message="&apos;if rcurly&apos; tem um nível de indentação incorreto de 20. O nível esperado era o 18." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="60" column="21" severity="warning" message="O filho de &apos;block&apos; está no nível de indentação incorreto de 20. O nível esperado era o 18." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="63" column="5" severity="warning" message="&apos;method def rcurly&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\java\com\filterapi\strategy\impl\ListarComprasStrategy.java">
+<error line="17" column="1" severity="warning" message="Falta o comentário Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="20" column="5" severity="warning" message="&apos;member def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="23" column="5" severity="warning" message="&apos;member def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="26" column="5" severity="warning" message="&apos;method def modifier&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="28" column="9" severity="warning" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="29" column="9" severity="warning" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="30" column="9" severity="warning" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="32" column="9" severity="warning" message="&apos;for&apos; tem um nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="33" column="13" severity="warning" message="&apos;for&apos; tem um nível de indentação incorreto de 12. O nível esperado era o 6." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="34" column="17" severity="warning" message="O filho de &apos;for&apos; está no nível de indentação incorreto de 16. O nível esperado era o 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="39" column="17" severity="warning" message="&apos;if&apos; tem um nível de indentação incorreto de 16. O nível esperado era o 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="40" column="21" severity="warning" message="O filho de &apos;if&apos; está no nível de indentação incorreto de 20. O nível esperado era o 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="41" column="21" severity="warning" message="O filho de &apos;if&apos; está no nível de indentação incorreto de 20. O nível esperado era o 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="42" column="21" severity="warning" message="O filho de &apos;if&apos; está no nível de indentação incorreto de 20. O nível esperado era o 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="43" column="21" severity="warning" message="O filho de &apos;if&apos; está no nível de indentação incorreto de 20. O nível esperado era o 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="44" column="21" severity="warning" message="O filho de &apos;if&apos; está no nível de indentação incorreto de 20. O nível esperado era o 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="45" column="21" severity="warning" message="O filho de &apos;if&apos; está no nível de indentação incorreto de 20. O nível esperado era o 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="46" column="21" severity="warning" message="O filho de &apos;if&apos; está no nível de indentação incorreto de 20. O nível esperado era o 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="47" column="21" severity="warning" message="O filho de &apos;if&apos; está no nível de indentação incorreto de 20. O nível esperado era o 10." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="48" column="17" severity="warning" message="&apos;if rcurly&apos; tem um nível de indentação incorreto de 16. O nível esperado era o 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="49" column="13" severity="warning" message="&apos;for rcurly&apos; tem um nível de indentação incorreto de 12. O nível esperado era o 6." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="50" column="9" severity="warning" message="&apos;for rcurly&apos; tem um nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="52" column="9" severity="warning" message="O filho de &apos;method def&apos; está no nível de indentação incorreto de 8. O nível esperado era o 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="55" column="5" severity="warning" message="&apos;method def rcurly&apos; tem um nível de indentação incorreto de 4. O nível esperado era o 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\isaqu\OneDrive\Documentos\ProjetosGitRepo\FilterAPI\src\main\resources\application.properties">
+</file>
+</checkstyle>

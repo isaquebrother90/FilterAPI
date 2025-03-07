@@ -16,23 +16,33 @@ import org.springframework.core.env.Environment;
 @Configuration
 public class SwaggerConfig {
 
-    @Autowired
-    private Environment environment;
+  @Autowired private Environment environment;
 
-    @Bean
-    public OpenAPI customOpenAPI(@Value("${springdoc.api-docs.path}") String apiDocsPath) {
-        String devUrl = environment.getProperty("filterapi.openapi.dev-url");
-        return new OpenAPI()
-                .info(new Info().title("FilterAPI")
-                        .description("Microsserviço para filtro e geração de recomendação e relatórios de compras")
-                        .version("1.0")
-                        .license(new License().name("MIT License").url("https://choosealicense.com/licenses/mit/")))
-                .addServersItem(new Server().url(devUrl))
-                .addSecurityItem(new SecurityRequirement().addList("bearerAuth"))
-                .components(new Components()
-                        .addSecuritySchemes("bearerAuth", new SecurityScheme()
-                                .type(SecurityScheme.Type.HTTP).scheme("bearer").bearerFormat("JWT")
-                                .in(SecurityScheme.In.HEADER).name("Authorization")));
-    }
+  @Bean
+  public OpenAPI customOpenAPI(@Value("${springdoc.api-docs.path}") String apiDocsPath) {
+    String devUrl = environment.getProperty("filterapi.openapi.dev-url");
+    return new OpenAPI()
+        .info(
+            new Info()
+                .title("FilterAPI")
+                .description(
+                    "Microsserviço para filtro e geração de recomendação e relatórios de compras")
+                .version("1.0")
+                .license(
+                    new License()
+                        .name("MIT License")
+                        .url("https://choosealicense.com/licenses/mit/")))
+        .addServersItem(new Server().url(devUrl))
+        .addSecurityItem(new SecurityRequirement().addList("bearerAuth"))
+        .components(
+            new Components()
+                .addSecuritySchemes(
+                    "bearerAuth",
+                    new SecurityScheme()
+                        .type(SecurityScheme.Type.HTTP)
+                        .scheme("bearer")
+                        .bearerFormat("JWT")
+                        .in(SecurityScheme.In.HEADER)
+                        .name("Authorization")));
+  }
 }
-

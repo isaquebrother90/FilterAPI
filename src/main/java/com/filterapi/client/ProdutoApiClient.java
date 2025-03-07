@@ -1,10 +1,9 @@
 package com.filterapi.client;
 
 import com.filterapi.model.Produto;
+import java.util.List;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
-
-import java.util.List;
 
 @FeignClient(name = "produtoClient", url = "https://rgr3viiqdl8sikgv.public.blob.vercel-storage.com")
 public interface ProdutoApiClient {

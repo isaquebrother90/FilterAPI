@@ -11,8 +11,8 @@
         },
       "version": "1.0",
     },
-  "servers": [{ "url": "${filterapi.openapi.dev-url}" }],
-  "security": [{ "bearerAuth": [] }],
+  "servers": [ { "url": "${filterapi.openapi.dev-url}" } ],
+  "security": [ { "bearerAuth": [ ] } ],
   "tags":
     [
       {
@@ -26,7 +26,7 @@
         {
           "get":
             {
-              "tags": ["FilterAPI"],
+              "tags": [ "FilterAPI" ],
               "summary": "Obter recomendação de vinho",
               "description": "Retorna uma recomendação de vinho com base no CPF do cliente",
               "operationId": "getRecomendacao",
@@ -71,7 +71,7 @@
         {
           "get":
             {
-              "tags": ["FilterAPI"],
+              "tags": [ "FilterAPI" ],
               "summary": "Obter a maior compra de um ano",
               "description": "Retorna a maior compra realizada em um ano específico",
               "operationId": "getMaiorCompra",
@@ -141,7 +141,7 @@
         {
           "get":
             {
-              "tags": ["FilterAPI"],
+              "tags": [ "FilterAPI" ],
               "summary": "Listar todas as compras",
               "description": "Retorna uma lista de todas as compras registradas",
               "operationId": "getCompras",
@@ -218,7 +218,7 @@
         {
           "get":
             {
-              "tags": ["FilterAPI"],
+              "tags": [ "FilterAPI" ],
               "summary": "Listar os clientes mais fiéis",
               "description": "Retorna uma lista de clientes que mais realizaram compras",
               "operationId": "getClientesFieis",

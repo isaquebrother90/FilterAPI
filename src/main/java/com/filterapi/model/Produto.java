@@ -3,62 +3,64 @@ package com.filterapi.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Produto {
-    private int codigo;
-    @JsonProperty("tipo_vinho")
-    private String tipoVinho;
-    private double preco;
-    private String safra;
-    @JsonProperty("ano_compra")
-    private int anoCompra;
+  private int codigo;
 
-    public Produto() {
-    }
+  @JsonProperty("tipo_vinho")
+  private String tipoVinho;
 
-    public Produto(int codigo, String tipoVinho, double preco, String safra, int anoCompra) {
-        this.codigo = codigo;
-        this.tipoVinho = tipoVinho;
-        this.preco = preco;
-        this.safra = safra;
-        this.anoCompra = anoCompra;
-    }
+  private double preco;
+  private String safra;
 
-    public int getCodigo() {
-        return codigo;
-    }
+  @JsonProperty("ano_compra")
+  private int anoCompra;
 
-    public void setCodigo(int codigo) {
-        this.codigo = codigo;
-    }
+  public Produto() {}
 
-    public String getTipoVinho() {
-        return tipoVinho;
-    }
+  public Produto(int codigo, String tipoVinho, double preco, String safra, int anoCompra) {
+    this.codigo = codigo;
+    this.tipoVinho = tipoVinho;
+    this.preco = preco;
+    this.safra = safra;
+    this.anoCompra = anoCompra;
+  }
 
-    public void setTipoVinho(String tipoVinho) {
-        this.tipoVinho = tipoVinho;
-    }
+  public int getCodigo() {
+    return codigo;
+  }
 
-    public double getPreco() {
-        return preco;
-    }
+  public void setCodigo(int codigo) {
+    this.codigo = codigo;
+  }
 
-    public void setPreco(double preco) {
-        this.preco = preco;
-    }
+  public String getTipoVinho() {
+    return tipoVinho;
+  }
 
-    public String getSafra() {
-        return safra;
-    }
+  public void setTipoVinho(String tipoVinho) {
+    this.tipoVinho = tipoVinho;
+  }
 
-    public void setSafra(String safra) {
-        this.safra = safra;
-    }
+  public double getPreco() {
+    return preco;
+  }
 
-    public int getAnoCompra() {
-        return anoCompra;
-    }
+  public void setPreco(double preco) {
+    this.preco = preco;
+  }
 
-    public void setAnoCompra(int anoCompra) {
-        this.anoCompra = anoCompra;
-    }
+  public String getSafra() {
+    return safra;
+  }
+
+  public void setSafra(String safra) {
+    this.safra = safra;
+  }
+
+  public int getAnoCompra() {
+    return anoCompra;
+  }
+
+  public void setAnoCompra(int anoCompra) {
+    this.anoCompra = anoCompra;
+  }
 }

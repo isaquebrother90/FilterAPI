@@ -1,5 +1,8 @@
 package com.filterapi.service;
 
+import static org.junit.jupiter.api.Assertions.*;
+import static org.mockito.Mockito.*;
+
 import com.filterapi.client.ClienteCompraApiClient;
 import com.filterapi.client.ProdutoApiClient;
 import com.filterapi.exception.ClienteNaoEncontradoException;
@@ -10,19 +13,15 @@ import com.filterapi.model.Compra;
 import com.filterapi.model.Produto;
 import com.filterapi.service.Impl.CompraServiceImpl;
 import com.filterapi.strategy.CompraStrategyContext;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Map;
-
-import static org.junit.jupiter.api.Assertions.*;
-import static org.mockito.Mockito.*;
 
 @SpringBootTest
 public class CompraServiceImplTest {
