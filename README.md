@@ -12,6 +12,8 @@ Microsserviço para filtro e geração de recomendação e relatórios de compra
 - **Swagger**
 - **CI/CD Github Actions**
 - **Docker e Docker Compose**
+- **Google Format and Checkstyle**
+- **Jacoco**
 
 ## Funcionalidades
 
