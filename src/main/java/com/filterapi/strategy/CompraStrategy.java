@@ -4,5 +4,5 @@ import java.util.List;
 import java.util.Map;
 
 public interface CompraStrategy {
-    List<Map<String, Object>> calcular();
+  List<Map<String, Object>> calcular();
 }
