@@ -1,0 +1,10 @@
+com.filterapi
+com.filterapi.client
+com.filterapi.config
+com.filterapi.controller
+com.filterapi.exception
+com.filterapi.model
+com.filterapi.service
+com.filterapi.service.Impl
+com.filterapi.strategy
+com.filterapi.strategy.impl

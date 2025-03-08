@@ -5,6 +5,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+/**
+ * Classe global de tratamento de exceções. Esta classe intercepta e trata as exceções lançadas pela
+ * API, retornando respostas HTTP adequadas com códigos de status e mensagens informativas.
+ *
+ * @since 1.0
+ */
 @ControllerAdvice
 public class GlobalExceptionHandler {
 
