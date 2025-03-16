@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"com.filterapi"},{"l":"com.filterapi.client"},{"l":"com.filterapi.config"},{"l":"com.filterapi.controller"},{"l":"com.filterapi.exception"},{"l":"com.filterapi.model"},{"l":"com.filterapi.service"},{"l":"com.filterapi.service.Impl"},{"l":"com.filterapi.strategy"},{"l":"com.filterapi.strategy.impl"}]

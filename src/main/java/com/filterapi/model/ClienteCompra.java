@@ -2,6 +2,12 @@ package com.filterapi.model;
 
 import java.util.List;
 
+/**
+ * Classe que representa um cliente com suas compras. Esta classe contém informações sobre o nome,
+ * CPF e a lista de compras associadas a um cliente.
+ *
+ * @since 1.0
+ */
 public class ClienteCompra {
   private String nome;
   private String cpf;

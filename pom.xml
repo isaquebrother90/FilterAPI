@@ -129,10 +129,11 @@
                 <version>3.5.0</version>
                 <configuration>
                     <configLocation>google_checks.xml</configLocation>
+                    <outputFile>target/checkstyle-result.html</outputFile>
                     <consoleOutput>true</consoleOutput>
                     <failsOnError>false</failsOnError>
-                    <failOnViolation>false</failOnViolation>
-                    <linkXRef>false</linkXRef>
+                    <failOnViolation>true</failOnViolation>
+                    <linkXRef>true</linkXRef>
                 </configuration>
                 <executions>
                     <execution>
